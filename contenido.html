@@ -177,15 +177,13 @@
             }, 2000); // Mostrar contenido principal después de 2 segundos
         });
     </script>
-     <div class="container">
-        <h1>Página Principal</h1>
-        <p>Información de la página principal</p>
-        <button class="boton" id="siguiente">Siguiente</button>
-    </div>
+    <button id="volver" class="boton-estilo">Volver a la página principal</button>
 
     <script>
-        document.getElementById("siguiente").addEventListener("click", function() {
+        document.getElementById("volver").onclick = function () {
             window.location.href = "index.html";
-        });
+        };
+    </script>
+    
 </body>
 </html>
