@@ -99,6 +99,29 @@
                 transform: rotate(360deg);
             }
         }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .boton {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #3e8e41;
+        }
     </style>
 </head>
 <body>
@@ -154,5 +177,15 @@
             }, 2000); // Mostrar contenido principal después de 2 segundos
         });
     </script>
+     <div class="container">
+        <h1>Página Principal</h1>
+        <p>Información de la página principal</p>
+        <button class="boton" id="siguiente">Siguiente</button>
+    </div>
+
+    <script>
+        document.getElementById("siguiente").addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
 </body>
 </html>
