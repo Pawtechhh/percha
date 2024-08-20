@@ -6,7 +6,7 @@
     <title>Página Principal</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
             background-image: url('https://images.unsplash.com/photo-1710014328280-5f889affbc82?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Añade una imagen de fondo */
             background-size: cover;
@@ -41,10 +41,36 @@
         .boton:hover {
             background-color: #3e8e41;
         }
+        nav{
+            width: 45%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+    color: #00698f; /* Color de los enlaces */
+    text-decoration: none;
+    background-color: #f7f7f7; /* Agrega un fondo claro a los enlaces */
+    padding: 10px; /* Agrega un poco de padding para que el fondo se vea */
+  }
+  
+  nav a:hover {
+    color: #0099cc; /* Color de los enlaces al pasar el mouse */
+    background-color: #4fdcff; /* Cambia el fondo al pasar el mouse */
+  }
+  
+  
+  nav a:hover {
+    color: #ff0000; /* Color de los enlaces al pasar el mouse */
+  }
     </style>
 </head>
 <body>
-    <div class="container2"> <h1>PAWTECH</h1>
+    <header>
+        <nav>
+              <a href="index.html">Inicio</a><a href="contacto.html">inscripcion</a><a href="contenido.html">quienes somos?</a>
+          </nav>
+    </header> <div class="container2"> <h1>PAWTECH</h1>
   <h2>innovación en protesis para masotas</h2>
 </div>
     <img src="perro_protesis-removebg-preview.png"/>
