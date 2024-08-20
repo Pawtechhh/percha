@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-image: url(''); /* Añade una imagen de fondo */
+            background-image: url('https://images.unsplash.com/photo-1710014328280-5f889affbc82?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Añade una imagen de fondo */
             background-size: cover;
             color: #333;
             margin: 0;
@@ -18,7 +18,15 @@
             max-width: 300px;
             margin: auto;
             padding: 10px;
-            background-color: #79b2fd;
+            background-color: #67cef7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .container2 {
+            max-width: 300px;
+            margin: auto;
+            padding: 10px;
+            background-color: #ffbe45;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
@@ -36,15 +44,16 @@
     </style>
 </head>
 <body>
-    <h1>PAWTECH</h1>
-    <h2>innovación en proteis para masotas</h2>
+    <div class="container2"> <h1>PAWTECH</h1>
+  <h2>innovación en protesis para masotas</h2>
+</div>
     <img src="perro_protesis-removebg-preview.png"/>
     <div class="container">
         <h1>Página Principal</h1>
         <p>Información de la página principal</p>
         <button class="boton" id="siguiente">Siguiente</button>
     </div>
-
+    <script src="scripts/main.js"></script>
     <script>
         document.getElementById("siguiente").addEventListener("click", function() {
             window.location.href = "contenido.html";
