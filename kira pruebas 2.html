@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto PawTech Expotec</title>
+    <link rel="icon" href="logo.jpeg" type="image/png">
+    <style>
+       body {
+            background-image: url('image.png'); /* Añade una imagen de fondo */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin: 10px 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+            border-radius: 10px;
+            display: none; /* Ocultar contenido principal hasta que se termine la animación de carga */
+        }
+        .boton-estilo {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px auto;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background-color 0.3s ease;
+            display: block;
+        }
+        .boton-estilo:hover {
+            background-color: #45a049; /* Verde más oscuro */
+        }
+        header {
+            background-color: #5884ff;
+            padding: 1px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        header img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin: 10px;
+            margin-right: auto;
+        }
+        header h3 {
+            font-size: 1.5em;
+            margin: 10;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gift {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            animation: rotate 2s linear infinite;
+        }
+        .gift img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .boton {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #3e8e41;
+        }
+
+        nav{
+            width: 45%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        nav a {
+    color: #00698f; /* Color de los enlaces */
+    text-decoration: none;
+    background-color: #f7f7f7; /* Agrega un fondo claro a los enlaces */
+    padding: 10px; /* Agrega un poco de padding para que el fondo se vea */
+    border-radius: 100px;/*forma redonda de los botones*/
+    margin-bottom: 25px;/*margen de abajo*/
+        margin-top: 10px; 
+}
+  
+  nav a:hover {
+    color: #000000; /* Color de los enlaces al pasar el mouse */
+    background-color: #ffffff; /* Cambia el fondo al pasar el mouse */
+  }
+  
+  
+  nav a:hover {
+    color: #ff0000; /* Color de los enlaces al pasar el mouse */
+  }
+    </style>
+</head>
+<body>
+    <!-- Animación de carga -->
+    <div class="loader">
+        <div class="gift">
+            <img src="logo.jpeg" alt="Imagen de logo">
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <header>
+        <img src="logo.jpeg" alt="Imagen de logo">
+        <h3>PawTech</h3>
+        <nav>
+            <a href="index.html">Inicio</a><a href="kira pruebas 2.html">quienes somos?</a><a href="contacto.html">inscripcion</a><a href="redes.html">redes</a>
+          </nav>
+    </header>
+    <div class="content">
+        <h1>innovación en Prótesis Caninas</h1>
+        <br>
+        <br>
+        <h2>
+            El proyecto PawTech nació de una simple pregunta: ¿es posible crear una prótesis con una impresora 3D? Lo que comenzó como una curiosidad se transformó en una misión gracias al apoyo de varios profesores dedicados. Nuestro primer éxito fue con Kira, nuestra paciente inicial, quien recibió una prótesis funcional y de alta calidad.
+            <br><br>
+            Desde entonces, hemos perfeccionado nuestro diseño, logrando desarrollar una prótesis económica, funcional y de excelente calidad. PawTech no solo ofrece una solución técnica, sino que también aborda una problemática social significativa: la gran cantidad de perros que, debido a los altos costos, no pueden acceder a dispositivos de movilidad como carritos.
+            <br><br>
+           
+             En PawTech, nuestro objetivo es hacer que las prótesis sean accesibles para todos. Como parte de un proyecto solidario impulsado por Expotec, nos esforzamos por optimizar los costos para que sean lo más bajos posible. Por esta razón, solo cobramos el costo del material necesario para fabricar la prótesis.
+                <br><br>
+        </h2><h1>  Inscripción al Proyecto</h1>
+
+                <br><br>
+        <h2>        Si estás interesado en unirte a nuestro proyecto entrar a el apartado de inscripcion
+            </h2>
+        
+    
+       
+
+    <!-- Script para mostrar el contenido principal cuando se termina la animación de carga -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                document.querySelector(".loader").style.display = "none";
+                document.querySelector(".content").style.display = "block";
+            }, 800); // Mostrar contenido principal después de 2 segundos
+        });
+    </script>
+</body>
+</html>
